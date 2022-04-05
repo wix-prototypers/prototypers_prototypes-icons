@@ -1,47 +1,26 @@
-<div class="main-container">
-    🚀&nbsp;
-    <a target="_blank" href="https://www.prototype-land.com">
-   	 Go to all prototypes
-   </a>
-   {% assign titleParts = site.github.project_title| replace:"-", " " | split: "_" %}
-   <h1 class="main-heading"> {{  titleParts[0] | capitalize }} // {{ titleParts[1] | capitalize }} {{ titleParts[2] | capitalize }}</h1>
-   <div class="content-container">
-      <div class="left-side">
-         <h4 class="links-heading">Prototype Links
-         </h4>
-         <ol>
-            {% for variation in site.variations %}
-            <li>
-               <a
-                  target="_blank"
-                  href="{{ variation.url }}"
-                  >
-               {{ variation.name }}
-               </a>
-               <div class="variation-description">
-                  {{ variation.description }}
-               </div>
-            </li>
-            {% endfor %}
-         </ol>
-         <div>
-            <hr/>
-            <h4 class="project-description-heading">Project Description</h4>
-            <div class="project-description">{{ site.description }}</div>
-            <div class="project-details">UX Owner : {{site.ux_owner}}</div>
-            <div class="project-details">Prototyper : {{site.prototyper}}</div>
-            <div class="project-details">Date Created : {{site.date_created}}</div>
-            <h4 >Useful Links</h4>
-            {% for link in site.useful_links %}
-            <a target="_blank"
-               href="{{ link.url }}">{{link.name}}</a>
-            {% endfor %}
-         </div>
-      </div>
-      <div>
-         <div class="right-side">
-            <img src="screenshot.png" />
-         </div>
-      </div>
-   </div>
-</div>
+# prototypers_prototypes-icons
+This Project helps us to add icons from different libraries in wix to our prototypes easily and conveniently.
+
+### How to Use?
+1. Copy the relevant CSS link (CDN link) to your prototype project:
+```
+https://cdn.jsdelivr.net/gh/wix-prototypers/prototypers_prototypes-icons@1.1/src/prototypes-icons.css
+```
+
+2. When adding icons to the prototype, we need to use the <code>&#60;i&#62;&#60;/i&#62;</code> element. This element gets the attribute **data-icon** and its value will include the library of the icon and its name.
+
+#### Convention
+<code>&#60;i data-icon="**library**-**iconsName**"&#62;&#60;/i&#62;</code>
+<br/>
+This project includes the **wix style react** and **base ui** libraries.
+To add an icon from one of those libraries we'll need to go into the library storybook:
+[wsr](https://www.wix-style-react.com/storybook/?path=/story/foundations-foundations--icons){:target="\_blank"} || [base-ui](https://www.wix-pages.com/wix-base-ui/?path=/story/icons--inventory){:target="\_blank"}, under **icons** we can search the icon we need and copy its name.
+
+#### Example
+```
+<i data-icon="wsr-WixChat"></i>
+```
+
+### Updates
+In order to update the cdn with new icons we need to generate a new css file which include all the icons from the lybrarise.
+To do so, [click here](https://codepen.io/maayanp/pen/GRyOwZd){:target="\_blank"} and follow the instructions.
