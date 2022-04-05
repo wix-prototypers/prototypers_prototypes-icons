@@ -38,7 +38,7 @@ To add an icon from one of those libraries:
       WSR
    </td>
    <td>
-     <code><i data-icon="wsr-WixChat"></i></code>
+     <code>&#60;i data-icon="wsr-WixChat"&#62;&#60;/i&#62;</code>
    </td>
    <td>
      icon
@@ -49,7 +49,7 @@ To add an icon from one of those libraries:
        Base ui
      </td>
    <td>
-     <code><i data-icon="base-ui-WixChat"></i></code>
+     <code>&#60;i data-icon="base-ui-WixChat"&#62;&#60;/i&#62;</code>
    </td>
    <td>
 icon
