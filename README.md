@@ -1,5 +1,5 @@
 # prototypers_prototypes-icons
-This Project helps us to add icons from different libraries in wix to our prototypes easily and conveniently.
+This project helps us to add icons from different libraries in wix to our prototypes easily and conveniently.
 
 ### How to Use?
 1. Copy the relevant CSS link (CDN link) to your prototype project:
