@@ -20,7 +20,7 @@ To add an icon from one of those libraries:
 2. Copy the icon name to the **data-icon** attribute
 
 #### Examples
-<tbody>
+<table>
   <tr>
    <td>
     Library
@@ -55,7 +55,7 @@ To add an icon from one of those libraries:
 icon
    </td>
   </tr>
-</tbody>
+</table>
 
 ### Updates
 In order to update the CDN with new icons we need to generate a new css file which include all the icons from the libraries.
