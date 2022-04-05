@@ -3,7 +3,7 @@ This Project helps us to add icons from different libraries in wix to our protot
 
 ### How to Use?
 1. Copy the relevant CSS link (CDN link) to your prototype project:
-<br/>
+<br/><br/>
 ```
 https://cdn.jsdelivr.net/gh/wix-prototypers/prototypers_prototypes-icons@1.1/src/prototypes-icons.css
 ```
