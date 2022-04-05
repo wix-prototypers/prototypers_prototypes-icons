@@ -7,4 +7,4 @@ This Project helps us to add icons from different libraries in wix to our protot
 https://cdn.jsdelivr.net/gh/wix-prototypers/prototypers_prototypes-icons@1.1/src/prototypes-icons.css
 ```
 
-2. When adding iccon to the prototype, we need to use the <code><i></i></code> element. This element gets the attribute: data-icon and its value will include the library of the icon and its name.
+2. When adding iccon to the prototype, we need to use the <code>&#60;i&#62;&#60;/i&#62;</code> element. This element gets the attribute: data-icon and its value will include the library of the icon and its name.
