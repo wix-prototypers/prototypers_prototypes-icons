@@ -23,4 +23,4 @@ To add an icon from one of those libraries we'll need to go into the library sto
 
 ### Updates
 In order to update the cdn with new icons we need to generate a new css file which include all the icons from the lybrarise.
-To do so: ######
+To do so, [click here](https://codepen.io/maayanp/pen/GRyOwZd){:target="\_blank"} and follow the instructions.
