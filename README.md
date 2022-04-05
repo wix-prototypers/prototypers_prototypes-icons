@@ -8,3 +8,8 @@ https://cdn.jsdelivr.net/gh/wix-prototypers/prototypers_prototypes-icons@1.1/src
 ```
 
 2. When adding iccon to the prototype, we need to use the <code>&#60;i&#62;&#60;/i&#62;</code> element. This element gets the attribute: data-icon and its value will include the library of the icon and its name.
+
+#### Example
+```
+<i></i>
+```
