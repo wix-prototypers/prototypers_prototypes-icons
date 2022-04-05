@@ -1,4 +1,5 @@
 # prototypers_prototypes-icons
+![info](https://wix-prototypers.github.io/prototypers_prototypes-icons/screenshot.png)
 This project helps us to add icons from different libraries in wix to our prototypes easily and conveniently.
 
 ### How to Use?
@@ -18,10 +19,43 @@ To add an icon from one of those libraries:
 1. Go to the [wsr](https://www.wix-style-react.com/storybook/?path=/story/foundations-foundations--icons){:target="\_blank"} / [base-ui](https://www.wix-pages.com/wix-base-ui/?path=/story/icons--inventory){:target="\_blank"} icons in the storybook sites
 2. Copy the icon name to the **data-icon** attribute
 
-#### Example
-```
-<i data-icon="wsr-WixChat"></i>
-```
+#### Examples
+<tbody>
+  <tr>
+   <td>
+    Library
+   </td>
+   <td>
+    Example
+   </td>
+   <td>
+    Icon
+   </td>
+  </tr>
+  <tr>
+    
+   <td>
+      WSR
+   </td>
+   <td>
+     <code><i data-icon="wsr-WixChat"></i></code>
+   </td>
+   <td>
+     icon
+   </td>
+  </tr>
+  <tr>
+     <td>
+       Base ui
+     </td>
+   <td>
+     <code><i data-icon="base-ui-WixChat"></i></code>
+   </td>
+   <td>
+icon
+   </td>
+  </tr>
+</tbody>
 
 ### Updates
 In order to update the CDN with new icons we need to generate a new css file which include all the icons from the libraries.
