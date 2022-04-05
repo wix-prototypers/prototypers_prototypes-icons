@@ -14,10 +14,13 @@ https://cdn.jsdelivr.net/gh/wix-prototypers/prototypers_prototypes-icons@1.1/src
 This project includes the **wix style react** and **base ui** lybreries.
 To add an icon from one of thoes libreires we'll need to go into the library storybook:
 [wsr](https://www.wix-style-react.com/storybook/?path=/story/foundations-foundations--icons){:target="\_blank"} 
-|| [base-ui](https://www.wix-pages.com/wix-base-ui/?path=/story/icons--inventory){:target="\_blank"} and under icons you can search the icon we nned and copy its name.
+ and under icons you can search the icon we nned and copy its name.
 
 #### Example
 ```
 <i data-icon="wsr-WixChat"></i>
 ```
 
+### Updates
+In order to update the cdn with new icons we need to generate a new css file which include all the icons from the lybrarise.
+To do so: ######
