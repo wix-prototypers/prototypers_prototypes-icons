@@ -16,7 +16,7 @@ https://cdn.jsdelivr.net/gh/wix-prototypers/prototypers_prototypes-icons@2.1/src
 <br/><br/>
 This project includes the **wix style react** and **base ui** libraries.
 To add an icon from one of those libraries:
-1. Go to the [wsr](https://www.wix-style-react.com/storybook/?path=/story/foundations-foundations--icons){:target="\_blank"} / [base-ui](https://www.wix-pages.com/wix-base-ui/?path=/story/icons--editor-classic-icons){:target="\_blank"} / [editor-x](https://www.wix-pages.com/wix-base-ui/?path=/story/icons--editor-x-icons){:target="\_blank"} icons in the storybook sites
+1. Go to the [wsr](https://www.wix-style-react.com/storybook/?path=/story/foundations-foundations--icons){:target="_blank"} / [base-ui](https://www.wix-pages.com/wix-base-ui/?path=/story/icons--editor-classic-icons){:target="\_blank"} / [editor-x](https://www.wix-pages.com/wix-base-ui/?path=/story/icons--editor-x-icons){:target="\_blank"} icons in the storybook sites
 2. Copy the icon name to the **data-icon** attribute
 
 #### Examples
