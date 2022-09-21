@@ -60,3 +60,5 @@ To add an icon from one of those libraries:
 In order to update the CDN with new icons we need to generate a new css file which include all the icons from the libraries.
 <br/>
 To do so, [click here](https://codepen.io/maayanp/pen/GRyOwZd){:target="\_blank"} and follow the instructions.
+
+<a href="https://google.com" target="_blank">google link</a>
