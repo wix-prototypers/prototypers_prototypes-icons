@@ -51,7 +51,7 @@ To add an icon from one of those libraries:
        Editor X
      </td>
    <td>
-     <code>&#60;i data-icon="editor-x-Academy"&#62;&#60;/i&#62;</code>
+     <code>&#60;i data-icon="editor-x-Chat"&#62;&#60;/i&#62;</code>
    </td>
   </tr>
 </table>
